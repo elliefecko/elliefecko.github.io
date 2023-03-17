@@ -1,0 +1,49 @@
+.text {
+    text-align: center;
+    font-family: verdana;
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 1520px;
+}
+.home {
+background-color: PeachPuff;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: DarkSalmon;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    float: left;
+  }
+
+  .bar {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .page {
+    color: IndianRed;
+  }
+
+  nav a:hover:not(.active) {
+    color: IndianRed;
+  }
+
+  h1{
+    font-family: Copperplate, Papyrus, fantasy;
+  }
